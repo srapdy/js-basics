@@ -1,6 +1,8 @@
 console.log('Hello World!');
 
-// let keyword is preferred over var for variable declaration as per ECMA6
+// let keyword is preferred over var for variable declaration starting ECMA6 (ES2015)
+// var keyword is function-scoped but let keyword is block-scoped and hence more granular
+// var keyword declared outside functions attaches to window object (window.variable)
 // variable names cannot start with a number
 // variable names cannot contain space or hyphen
 // variable names are case-sensitive
